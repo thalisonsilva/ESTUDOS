@@ -34,4 +34,9 @@ func main() {
 	//Enverte valores de variaveis (para fazer trocas de valores de variaveis)!! 
 	variaveis5, variaveis5 = variaveis3, variaveis4
 	fmt.Println(variaveis5, variaveis6)
+
+	//Variaveis com números
+	var idade int = 25
+	ano := 1998
+	fmt.Println(idade, ano)
 }
