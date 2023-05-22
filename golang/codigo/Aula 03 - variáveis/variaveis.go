@@ -1,9 +1,9 @@
 package main
 
-import (
-	"fmt"
+import "fmt"
 
-)
+
+
 
 //Podemos declara variaveis da seguintes formas!!
 func main() {
