@@ -38,5 +38,7 @@ func main() {
 	//Variaveis com números
 	var idade int = 25
 	ano := 1998
+	salario := 1360.90
 	fmt.Println(idade, ano)
+	fmt.Println(salario)
 }
