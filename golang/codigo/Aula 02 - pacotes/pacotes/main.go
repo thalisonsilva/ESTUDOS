@@ -5,7 +5,7 @@ import (
 	"fmt" 
 	"github.com/badoux/checkmail"
 ) 
-	// Por padrão no go Toda função quer for exportada - deve ter um comentario o que ela faz!
+	// Por padrão no GO toda função  exportada - deve ter um comentario explicando oque ela faz!
 func main() { 
 	fmt.Println("Hello World")
 	auxiliar.Escrever()
