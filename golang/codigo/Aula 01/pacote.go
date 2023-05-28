@@ -1,9 +1,8 @@
 package main
 
-import (
-    "fmt"
+import "fmt"
     "stringutil"
-)
+
 
 func main() {
     input := "radar"
