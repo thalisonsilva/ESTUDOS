@@ -12,8 +12,8 @@ func main() {
 	fmt.Println("Arquivo structs")
 
 	var u usuarios 
-	u.nome = "João"	
-	u.idade = 18 
+	u.nome = "Thalison"	
+	u.idade = 25
     fmt.Println(u)
 
 	usuarios2 := usuarios{"Davi", 21}
