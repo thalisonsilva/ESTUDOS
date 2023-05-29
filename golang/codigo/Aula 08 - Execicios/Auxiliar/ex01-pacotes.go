@@ -4,9 +4,14 @@ package main
 import (
 		"fmt"
 	  	"modulo/auxiliar"
+		"github.com/badoux/checkmail"  //utilizamos o comando "go get URL da importação"
 )
 
 func main() { 
 	fmt.Println("Olá thalison") 
 	auxiliar.Escrever()
+
+	erro := checkmail.ValidateFormat("devthalison@gmail.com")
+	fmt.Println(erro)
+
 }
