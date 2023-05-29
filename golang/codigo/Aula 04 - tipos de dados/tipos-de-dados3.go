@@ -7,16 +7,20 @@ import (
 		
 func main() {
 
-	//numero inteiros
+	//numero inteiros 
+	//int8, int16, int32, int64 -suporta número negativos 
     var numero int64 = - 1000000
 	fmt.Println(numero)
 
+	//uint8, uint16, uint32, uint64 - suporta número negativos - um int sem sinal (-)
 	var numero2 uint32 = 10000
 	fmt.Println(numero2)
-
+	
+	//E igual ao int32
 	var numero3 rune = 0 
 	fmt.Println(numero3)
 
+	//Igual ao uint8
 	var numero4 byte = 123
 	fmt.Println(numero4)
 	//fim numero inteiros
