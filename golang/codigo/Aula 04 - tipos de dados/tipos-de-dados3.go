@@ -15,7 +15,7 @@ func main() {
 	//uint8, uint16, uint32, uint64 - suporta número negativos - um int sem sinal (-)
 	var numero2 uint32 = 10000
 	fmt.Println(numero2)
-	
+
 	//E igual ao int32
 	var numero3 rune = 0 
 	fmt.Println(numero3)
@@ -42,7 +42,7 @@ func main() {
 	fmt.Println(str2)
 
 	char := 'a'
-	fmt.Println(char)
+	fmt.Println(char) //Ele pega o número da tabela spa da cadeia de caracte
 
 	//Fim strings
 
