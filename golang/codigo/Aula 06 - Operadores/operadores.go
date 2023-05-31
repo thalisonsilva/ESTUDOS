@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println(soma, subtracao, divisao, multiplicacao, restoDaDivisao)
 
-	//No Go para fazer operação de tipo diferente, ele não permite! 
+	//No Go para fazer operação de tipo diferente (int8 + int16), ele não permite! 
 	var numero1 int16 = 10 
 	var numero2 int16 = 25
 
@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(soma1)
 	//Fim operadores Aritimeticos
 
-	//Atribuição
+	//Atribuição de vatiaveis
 	var variavel1 string = "Thalison"
 	variavel2 := "Thalison Moreira"
 	fmt.Println(variavel1, variavel2)
@@ -40,9 +40,9 @@ func main() {
 	//Operadores Lógicos
 	fmt.Println("--------------")
 	verdadeiro, falso := true, false
-	fmt.Println(verdadeiro && falso) 
-	fmt.Println(verdadeiro || falso)	
-	fmt.Println(!verdadeiro)
+	fmt.Println(verdadeiro && falso) // operador (e)
+	fmt.Println(verdadeiro || falso) // Opedador (ou)
+	fmt.Println(!verdadeiro) //Enverter o valor da variavel booleano! 
 	fmt.Println(!falso)
 	//Fim Operadores Lógicos
 

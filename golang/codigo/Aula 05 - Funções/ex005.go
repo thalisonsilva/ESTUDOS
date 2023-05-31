@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 //Paramentros são os dados que pomos para funcionar 
+
 func mediaDeAluno(n1 int, n2 int, n3 int) int {
 	soma := (n1 + n2 + n3) * 3
 	return soma
