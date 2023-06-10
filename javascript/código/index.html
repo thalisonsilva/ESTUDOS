@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nome: <input id="nomeInput" type="text">
+    <br>
+    Senha: <input id="senhaInput" type="password">
+    <button onclick="verifica()">Entrar</button>
+    <br>
+
+    <script>
+        function verifica() {
+    var nome = "Bruno";
+    var senha = "b1234";
+
+    var nomeInput = document.getElementById("nomeInput").value;
+    var senhaInput = document.getElementById("senhaInput").value;
+
+    if (nomeInput === nome && senhaInput === senha) {
+      alert("Bem-vindo!");
+    } else {
+      alert("Acesso negado.");
+    }
+  }
+
+    </script>
+</body>
+</html>
