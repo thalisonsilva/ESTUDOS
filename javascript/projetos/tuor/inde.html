@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Site com Tour Virtual no Chat</title>
+  <!-- Adicione as tags meta, stylesheets e outros elementos necessários -->
+</head>
+<body>
+  <h1>Meu Site com Tour Virtual no Chat</h1>
+
+  <!-- Adicione outras seções e conteúdo do seu site aqui -->
+
+  <!-- Div para exibir o tour virtual no chat -->
+  <div id="tour-360"></div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      // Obtenha a referência da div onde o tour será exibido
+      var divTour = document.getElementById('tour-360');
+      
+      // Crie um elemento iframe
+      var iframe = document.createElement('iframe');
+      iframe.width = '1000';
+      iframe.height = '600';
+      iframe.src = 'https://studiodayanavlasack.mmstourvirtual360.com/';
+      iframe.allow = 'autoplay; fullscreen; gyroscope; accelerometer';
+      
+      // Adicione o iframe à div
+      divTour.appendChild(iframe);
+    });
+  </script>
+</body>
+</html>
