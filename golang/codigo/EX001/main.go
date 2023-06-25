@@ -1,10 +1,9 @@
-package principal
+package main
 
 import "fmt"
 
-import "rsc.io/quote"
-
-func principal() {
-    fmt.Println(quote.Go())
+func main() {
+    
+    fmt.Println("Ola mundo")
 	
 }
