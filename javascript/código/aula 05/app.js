@@ -1,2 +1,3 @@
 // Exx01
-const 
+const  
+var
