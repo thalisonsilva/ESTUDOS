@@ -13,7 +13,7 @@ func main() {
 
 	var u usuarios 
 	u.nome = "Thalison"	
-	u.idade = 25
+	u.idade = 26
     fmt.Println(u)
 
 	usuarios2 := usuarios{"Davi", 21}
