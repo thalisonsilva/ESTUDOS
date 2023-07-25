@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 
 import br.catolica.dominio.Aluno;
 
@@ -57,11 +58,11 @@ public class CadastrarAlunoServlet extends HttpServlet {
 		novoAluno.setSexo(sexo);
 		novoAluno.setSemestre(semestre);
 		
-		// Define onde a lista de alunos est· armazenada (na sessao do usu·rio ou na requisicao) 
+		// Define onde a lista de alunos est√° armazenada (na sessao do usu√°rio ou na requisicao) 
 		HttpSession escopoLista = request.getSession() ;
 		//HttpServletRequest escopoLista = request ;
 		
-		// Recupera a lista de alunos j· cadastrados		
+		// Recupera a lista de alunos j√° cadastrados		
 		List<Aluno> listaAlunos = (List<Aluno>) escopoLista.getAttribute("listaAlunos") ;
 		if(listaAlunos == null) {
 			listaAlunos = new ArrayList<>();
@@ -73,10 +74,10 @@ public class CadastrarAlunoServlet extends HttpServlet {
 		// Guarda a lista atualizada na sessao (ou requisicao)
 		escopoLista.setAttribute("listaAlunos", listaAlunos);
 		
-		// Colocamos tambÈm a lista no request, para podermos exibir na tabela de alunos
+		// Colocamos tamb√©m a lista no request, para podermos exibir na tabela de alunos
 		request.setAttribute("alunosCadastrados", listaAlunos);
 		
-		// E encaminhamos a requisicao para a tela que contÈm a tabela de alunos
+		// E encaminhamos a requisicao para a tela que cont√©m a tabela de alunos
 		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 		dispatcher.forward(request, response);		
 	}
