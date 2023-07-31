@@ -10,8 +10,9 @@ import (
 
 
 func main() {
-	fmt.Println("Olá thalison")
+	fmt.Println("Olá thalison") //test
 	auxiliar.Escrever()  
+
 	auxiliar.Escrever2()
 	
 	error :=  checkmail.ValidateFormat("contato@thalisonsilva.com.br")
