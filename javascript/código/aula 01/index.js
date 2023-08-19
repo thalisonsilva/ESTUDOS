@@ -4,7 +4,7 @@ function verifica() {
 
     var nomeInput = document.getElementById("nomeInput").value;
     var senhaInput = document.getElementById("senhaInput").value;
-    var senha = document.getElementById("senha").value; 
+    var senha = document.getElementById("senha").value; //dorex
 
     if (nomeInput === nome && senhaInput === senha) {
       alert("Bem-vindo!");

@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Olá thalison")
 	auxiliar.Escrever()  //Para cria mais de um pacote devemos cria mais de uma pastas.
-	auxiliar.Escrever2()
+	auxiliar.Escrever2() //Para cria mais de um pacote devemos cria mais de uma pastas.
 }
 
 
