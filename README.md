@@ -18,6 +18,5 @@
 * Meu [LinkedIn](https://www.linkedin.com/in/thalison-moreira)
 * Meu [GitHub](https://github.com/thalisonsilva)
 * Meu [Instagram](https://www.instagram.com/devthalis/)
-* Nosso [Discord]("a")
   
   
